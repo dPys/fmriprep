@@ -52,6 +52,8 @@ from ..interfaces.freesurfer import (
     PatchedRobustRegister as RobustRegister)
 
 
+print('THIS IS A TEST EDIT!')
+
 #  pylint: disable=R0914
 def init_anat_preproc_wf(skull_strip_template, output_spaces, template, debug,
                          freesurfer, longitudinal, omp_nthreads, hires, reportlets_dir,
